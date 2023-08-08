@@ -29,14 +29,14 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
             )
         ],
         [
-            InlineKeyboardButton(text="☃˹ꜱᴜᴘᴘᴏʀᴛ˼☃", url=config.SUPPORT_GROUP),
-            InlineKeyboardButton(text="♪˹ᴜᴘᴅᴀᴛᴇꜱ˼♪", url=config.SUPPORT_CHANNEL),
+            InlineKeyboardButton(text="☃˹ꜱᴜᴘᴘᴏʀᴛ˼☃", url="https://t.me/the_iconic_club"),
+            InlineKeyboardButton(text="♪˹ᴜᴘᴅᴀᴛᴇꜱ˼♪", url="https://t.me/the_iconic_botshub),
         ],
         [
             InlineKeyboardButton(text="♡ Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ♡", callback_data="settings_back_helper"),
         ],
         [
-            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url=config.GITHUB_REPO),
+            InlineKeyboardButton(text="☠Sᴏᴜʀᴄᴇ☠", url="https://t.me/about_abhi_i"),
             InlineKeyboardButton(text="ღ Oᴡɴᴇʀ ღ", user_id=OWNER),
         ],
     ]
